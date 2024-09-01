@@ -7,6 +7,6 @@ describe("Tests in <DemoComponent /> ", () => {
     const message2 = message1.trim();
 
     // Assert
-    expect(message1).toBe(message2);
+    expect(message1).toEqual(message2);
   });
 });
